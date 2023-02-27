@@ -45,7 +45,7 @@
         <h1 class="filter-head-title">Гостиницы Седоны</h1>
         <ul class="breadcrubs">
           <li class="breadcrumbs-item">
-          <a class="breadcrubs-link" href="index.html"></a>
+          <a class="breadcrubs-link breadcrumbs-link-icon" href="index.html"></a>
           </li>
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link breadcrumbs-link-current">Гостиницы</a>
@@ -75,7 +75,7 @@
             <ul class="filter-catalog-list">
               <li class="filter-catalog-item">
                 <input class="filter-control-radio visually-hidden" type="radio" id="hotel" name="type-of-house" checked>
-                <label class="ilter-catalog-radio-label" for="hotel">Гостиница</label>
+                <label class="filter-catalog-radio-label" for="hotel">Гостиница</label>
               </li>
               <li class="filter-group-item">
                 <input class="filter-control-radio visually-hidden" type="radio" id="motel" name="type-of-house" >
@@ -83,7 +83,7 @@
               </li>
               <li class="filter-group-item">
                 <input class="filter-control-radio visually-hidden" type="radio" id="apartment" name="type-of-house">
-                <label class="ilter-catalog-radio-label" for="apartment">Апартаменты</label>
+                <label class="filter-catalog-radio-label" for="apartment">Апартаменты</label>
               </li>
             </ul>
           </fieldset>
@@ -102,10 +102,10 @@
               </div>
               <div class="filter-catalog-range">
                 <div class="filter-catalog-range-sliders">
-                  <button class="button-range-min" type="submit">
+                  <button class="filter-button-range button-range-min" type="submit">
                     <span class="visually-hidden">Цена от.</span>
                   </button>
-                  <button class="button-range-max" type="reset">
+                  <button class="filter-button-range button-range-maxx" type="reset">
                     <span class="visually-hidden">Цена до.</span>
                   </button>
                 </div>
@@ -130,13 +130,13 @@
           </select>
           <ul class="results-filter-list">
             <li class="results-filter-item">
-              <a class="results-filter-item-link" href="#"><span class="visually-hidden">Отображение карточками</span></a>
+              <a class="results-filter-item-button results-filter-item-button-current button-table" href="#"><span class="visually-hidden">Отображение карточками</span></a>
             </li>
             <li class="results-filter-item">
-              <a class="results-filter-item-link" href="#"><span class="visually-hidden">Отображение иконкой</span></a>
+              <a class="results-filter-item-button button-icon" href="#"><span class="visually-hidden">Отображение иконкой</span></a>
             </li>
             <li class="results-filter-item">
-              <a class="results-filter-item-link" href="#">
+              <a class="results-filter-item-button button-list" href="#">
                 <span class="visually-hidden">Отображение списком</span>
                  </a>
             </li>
@@ -203,7 +203,7 @@
         <div class="pagination-container">
         <ul class="pagination">
           <li class="pagination-item">
-            <a class="pagination-link">1</a>
+            <a class="pagination-link pagination-current">1</a>
           </li>
           <li class="pagination-item">
             <a class="pagination-link button" href="#">2</a>
